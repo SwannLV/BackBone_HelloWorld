@@ -1,0 +1,4 @@
+{"ts":1352216012698,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1352216016100,"patch":[[{"diffs":[[1,"var fu = require(\"./fu\");\r\nvar HOST = process.env.IP;\r\nvar PORT = process.env.PORT;\r\n\r\nfu.listen(Number(process.env.PORT || PORT), HOST);\r\n\r\nfu.get(\"/\", fu.staticHandler(\"Index.html\"));"]],"start1":0,"start2":0,"length1":0,"length2":185}]],"length":185,"saved":false}
+{"ts":1352216136735,"patch":[[{"diffs":[[0,"html\"));"],[1,"\r\nfu.get(\"/\", fu.staticHandler(\"HelloWorld.js\"));"]],"start1":177,"start2":177,"length1":8,"length2":57}]],"length":234,"saved":false}
+{"ts":1352216151303,"patch":[[{"diffs":[[0,"l\"));\r\nfu.get(\"/"],[1,"HelloWorld.js"],[0,"\", fu.staticHand"]],"start1":180,"start2":180,"length1":32,"length2":45}]],"length":247,"saved":false}
